@@ -4,5 +4,6 @@
 {{ end }}
 {{ with .Site.GetPage "/blog" }}
 <a href="{{ "blog" | relURL }}">Blog</a>
-<a href="/index.xml" target="_blank">Rss</a>
+<a href="{{ "sponsor" | relURL }}">Sponsor</a>
+<a href="/index.xml" target="_blank">RSS</a>
 {{ end }}
